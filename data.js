@@ -1878,8 +1878,8 @@ var APP_DATA = {
           "text": ""
         },
         {
-          "yaw": 2.8748823408854207,
-          "pitch": 0.24457648271463128,
+          "yaw": 2.8408823408854207,
+          "pitch": 0.22457648271463128,
           "title": "Bloque de aulas de la UAB",
           "text": ""
         }
