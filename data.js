@@ -45,33 +45,21 @@ var APP_DATA = {
           "yaw": 2.7150178362287507,
           "pitch": -0.6506675459041809,
           "rotation": 0,
-          "target": "27-air3"
+          "target": "27-vista-area-3"
         },
         {
           "yaw": -1.390997180348311,
           "pitch": -0.28664123707107336,
           "rotation": 0,
-          "target": "28-air4"
+          "target": "28-vista-area-4"
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 2.776641068968715,
-          "pitch": -0.7556425286296573,
-          "title": "Vista aerea",
-          "text": "Vista aérea de la Universidad"
-        },
         {
           "yaw": 0.4585356972136747,
           "pitch": -0.16284233322716268,
           "title": "Cooksonia - Centro de Estudios de la Naturaleza",
           "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!"
-        },
-        {
-          "yaw": -1.2976673146163904,
-          "pitch": -0.3646879380086716,
-          "title": "<div>Vista Aérea</div>",
-          "text": ""
         }
       ]
     },
@@ -114,13 +102,13 @@ var APP_DATA = {
           "yaw": 1.8545508809855056,
           "pitch": -0.5634841617753104,
           "rotation": 0,
-          "target": "27-air3"
+          "target": "27-vista-area-3"
         },
         {
           "yaw": -2.42871617998453,
           "pitch": -0.33924083785977466,
           "rotation": 0,
-          "target": "28-air4"
+          "target": "28-vista-area-4"
         }
       ],
       "infoHotspots": [
@@ -196,8 +184,8 @@ var APP_DATA = {
         {
           "yaw": -1.7619203218542552,
           "pitch": -0.12036532186255045,
-          "title": "Title",
-          "text": "Text"
+          "title": "Sala audiovisual",
+          "text": ""
         }
       ]
     },
@@ -1442,8 +1430,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "25-air1",
-      "name": "air1",
+      "id": "25-vista-area-1",
+      "name": "Vista aérea 1",
       "levels": [
         {
           "tileSize": 256,
@@ -1474,25 +1462,25 @@ var APP_DATA = {
           "yaw": 2.2448389580966124,
           "pitch": 0.1879878856502888,
           "rotation": 0,
-          "target": "26-air2"
+          "target": "26-vista-area-2"
         },
         {
           "yaw": 2.6800155309522147,
           "pitch": 0.14499228140377873,
           "rotation": 0,
-          "target": "27-air3"
+          "target": "27-vista-area-3"
         },
         {
           "yaw": 2.9815057838526826,
           "pitch": 0.09911634679850678,
           "rotation": 0,
-          "target": "28-air4"
+          "target": "28-vista-area-4"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.754945183652538,
-          "pitch": 1.0286863728236515,
+          "yaw": 2.7719236964069225,
+          "pitch": 1.0350105657875623,
           "title": "Colegio UAB",
           "text": ""
         },
@@ -1523,8 +1511,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "26-air2",
-      "name": "air2",
+      "id": "26-vista-area-2",
+      "name": "Vista aérea 2",
       "levels": [
         {
           "tileSize": 256,
@@ -1555,19 +1543,19 @@ var APP_DATA = {
           "yaw": 1.4346474064352295,
           "pitch": 0.35074148982641873,
           "rotation": 0,
-          "target": "27-air3"
+          "target": "27-vista-area-3"
         },
         {
           "yaw": -2.9140216091302094,
           "pitch": 0.2370883276793343,
           "rotation": 0,
-          "target": "25-air1"
+          "target": "25-vista-area-1"
         },
         {
           "yaw": 1.600944346959852,
           "pitch": 0.11456217994859408,
           "rotation": 0,
-          "target": "28-air4"
+          "target": "28-vista-area-4"
         }
       ],
       "infoHotspots": [
@@ -1622,8 +1610,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "27-air3",
-      "name": "air3",
+      "id": "27-vista-area-3",
+      "name": "Vista aérea 3",
       "levels": [
         {
           "tileSize": 256,
@@ -1657,8 +1645,8 @@ var APP_DATA = {
           "target": "1-01-2"
         },
         {
-          "yaw": -2.8237345505964804,
-          "pitch": 1.0476528672007,
+          "yaw": -2.823020343286405,
+          "pitch": 1.0456155302182335,
           "rotation": 6.283185307179586,
           "target": "0-01-1"
         },
@@ -1666,19 +1654,19 @@ var APP_DATA = {
           "yaw": -1.4932045831628855,
           "pitch": 0.2789673345791943,
           "rotation": 0,
-          "target": "26-air2"
+          "target": "26-vista-area-2"
         },
         {
           "yaw": 2.099939254957711,
           "pitch": 0.206817527952591,
           "rotation": 0,
-          "target": "28-air4"
+          "target": "28-vista-area-4"
         },
         {
           "yaw": -2.0846858972552944,
           "pitch": 0.15006545389697123,
           "rotation": 0,
-          "target": "25-air1"
+          "target": "25-vista-area-1"
         }
       ],
       "infoHotspots": [
@@ -1719,14 +1707,14 @@ var APP_DATA = {
           "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!<br>"
         },
         {
-          "yaw": -1.8039547262876159,
-          "pitch": 0.2639927647904319,
-          "title": "Coliseo Jose A. J.",
+          "yaw": -1.8766780359724056,
+          "pitch": 0.25465545137273793,
+          "title": "Coliseo José Amasías Justiniano - UAB",
           "text": ""
         },
         {
-          "yaw": -1.9489988642728555,
-          "pitch": 0.4549467113946477,
+          "yaw": -1.9722905446216359,
+          "pitch": 0.43900641662172113,
           "title": "Estacionamiento 2 - UAB",
           "text": ""
         },
@@ -1745,8 +1733,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "28-air4",
-      "name": "air4",
+      "id": "28-vista-area-4",
+      "name": "Vista aérea 4",
       "levels": [
         {
           "tileSize": 256,
@@ -1777,19 +1765,19 @@ var APP_DATA = {
           "yaw": 3.0109548510169084,
           "pitch": 0.2776856557318048,
           "rotation": 0,
-          "target": "27-air3"
+          "target": "27-vista-area-3"
         },
         {
           "yaw": 2.771870216019428,
           "pitch": 0.14944917632202248,
           "rotation": 0,
-          "target": "26-air2"
+          "target": "26-vista-area-2"
         },
         {
           "yaw": 2.223068336283693,
           "pitch": 0.09493122774500407,
           "rotation": 0,
-          "target": "25-air1"
+          "target": "25-vista-area-1"
         }
       ],
       "infoHotspots": [
@@ -1800,8 +1788,8 @@ var APP_DATA = {
           "text": ""
         },
         {
-          "yaw": 2.3215222567458556,
-          "pitch": 0.695588410418555,
+          "yaw": 2.2263065317276958,
+          "pitch": 0.7796465405584314,
           "title": "Comedor - UAB",
           "text": ""
         },
@@ -1890,7 +1878,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
