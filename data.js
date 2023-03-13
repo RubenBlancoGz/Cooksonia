@@ -42,8 +42,8 @@ var APP_DATA = {
           "target": "1-01-2"
         },
         {
-          "yaw": 2.7150178362287507,
-          "pitch": -0.6506675459041809,
+          "yaw": 2.7356848096414437,
+          "pitch": -0.5262904194719376,
           "rotation": 0,
           "target": "27-vista-area-3"
         },
@@ -56,8 +56,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 0.4585356972136747,
-          "pitch": -0.16284233322716268,
+          "yaw": 0.44041681259102106,
+          "pitch": -0.15579483831008467,
           "title": "Cooksonia - Centro de Estudios de la Naturaleza",
           "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!"
         }
@@ -99,8 +99,8 @@ var APP_DATA = {
           "target": "0-01-1"
         },
         {
-          "yaw": 1.8545508809855056,
-          "pitch": -0.5634841617753104,
+          "yaw": 1.738589860419827,
+          "pitch": -0.4729513314941478,
           "rotation": 0,
           "target": "27-vista-area-3"
         },
@@ -112,12 +112,6 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 1.941645996355832,
-          "pitch": -0.6030427937309231,
-          "title": "Vista aerea",
-          "text": "Vista aérea de la Universidad"
-        },
         {
           "yaw": 0.824697627458022,
           "pitch": 0.06610260440322335,
@@ -1788,8 +1782,8 @@ var APP_DATA = {
           "text": ""
         },
         {
-          "yaw": 2.2263065317276958,
-          "pitch": 0.7796465405584314,
+          "yaw": 2.235529045656282,
+          "pitch": 0.7817289465867852,
           "title": "Comedor - UAB",
           "text": ""
         },
