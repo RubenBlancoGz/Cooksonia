@@ -165,7 +165,7 @@ var APP_DATA = {
           "yaw": -2.917305669610675,
           "pitch": 0.2930361680887863,
           "rotation": 0,
-          "target": "4-sala-de-espera"
+          "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": [
@@ -222,7 +222,7 @@ var APP_DATA = {
           "yaw": -0.4240268394544131,
           "pitch": 0.3767404539415651,
           "rotation": 0,
-          "target": "4-sala-de-espera"
+          "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": [
@@ -241,8 +241,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-sala-de-espera",
-      "name": "Sala de espera",
+      "id": "4-sala-de-espera---pasillo",
+      "name": "Sala de espera - pasillo",
       "levels": [
         {
           "tileSize": 256,
@@ -285,7 +285,7 @@ var APP_DATA = {
           "yaw": -3.024248975554034,
           "pitch": 0.40283493288815997,
           "rotation": 0,
-          "target": "5-4"
+          "target": "5-sala-de-espera"
         },
         {
           "yaw": -0.7316038930407309,
@@ -310,8 +310,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "5-4",
-      "name": "4",
+      "id": "5-sala-de-espera",
+      "name": "Sala de espera",
       "levels": [
         {
           "tileSize": 256,
@@ -342,7 +342,7 @@ var APP_DATA = {
           "yaw": 1.567636680314445,
           "pitch": 0.3970213557569764,
           "rotation": 0,
-          "target": "4-sala-de-espera"
+          "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
@@ -380,7 +380,7 @@ var APP_DATA = {
           "yaw": 0.9565703456474566,
           "pitch": 0.532604166705795,
           "rotation": 0,
-          "target": "4-sala-de-espera"
+          "target": "4-sala-de-espera---pasillo"
         },
         {
           "yaw": -1.315685618971516,
@@ -1458,7 +1458,7 @@ var APP_DATA = {
           "yaw": 1.987110321234792,
           "pitch": 0.4462828286170968,
           "rotation": 0,
-          "target": "4-sala-de-espera"
+          "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
@@ -1910,9 +1910,9 @@ var APP_DATA = {
   ],
   "name": "Paseo Virtual UAB",
   "settings": {
-    "mouseViewMode": "qtvr",
+    "mouseViewMode": "drag",
     "autorotateEnabled": false,
     "fullscreenButton": true,
-    "viewControlButtons": true
+    "viewControlButtons": false
   }
 };

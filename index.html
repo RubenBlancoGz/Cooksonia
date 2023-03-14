@@ -1,183 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Paseo Virtual UAB</title>
-<meta charset="utf-8">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="vendor/reset.min.css">
-<link rel="stylesheet" href="style.css">
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <style>
+    @-ms-viewport {
+      width: device-width;
+    }
+  </style>
+  <link rel="stylesheet" href="vendor/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="/img/pano.svg">
 </head>
-<body class="multiple-scenes view-control-buttons">
 
-<div id="pano"></div>
+<body class="multiple-scenes ">
 
-<div id="sceneList">
-  <ul class="scenes">
-    
-      <a href="javascript:void(0)" class="scene" data-id="0-museo">
-        <li class="text">Museo</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="1-jardn">
-        <li class="text">Jardín</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="2-entrada">
-        <li class="text">Entrada</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="3-sala-audiovisual">
-        <li class="text">Sala audiovisual</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="4-sala-de-espera">
-        <li class="text">Sala de espera</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="5-4">
-        <li class="text">4</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="6-inicio">
-        <li class="text">Inicio</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="7-cmo-se-forman-los-fsiles">
-        <li class="text">Cómo se forman los fósiles</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="8-fosilizacin-excepcional">
-        <li class="text">Fosilización Excepcional</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="9-las-rocas-y-la-formacin-de-fsiles">
-        <li class="text">Las rocas y la formación de fósiles</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="10-tectnica-de-placas">
-        <li class="text">Tectónica de Placas</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="11-inicio-registro-fsil">
-        <li class="text">Inicio Registro Fósil</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="12-registro-fsil---aparicin-abrupta-en-el-registro-fsil">
-        <li class="text">Registro Fósil - Aparición abrupta en el registro fósil</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="13-registro-fsil---huellas">
-        <li class="text">Registro Fósil - Huellas</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="14-registro-fsil---diseo-inteligente">
-        <li class="text">Registro Fósil - Diseño Inteligente</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="15-huellas-en-bolivia-y-catastrofismo-">
-        <li class="text">Huellas en Bolivia y Catastrofismo </li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="16-pasillo-de-fsiles">
-        <li class="text">Pasillo de fósiles</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="17-fsiles-1">
-        <li class="text">Fósiles 1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="18-fsiles-2">
-        <li class="text">Fósiles 2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="19-fsiles-3">
-        <li class="text">Fósiles 3</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="20-informacin-tortugas-y-dinosaurios">
-        <li class="text">Información Tortugas y Dinosaurios</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="21-evidencias-del-diseo-inteligente">
-        <li class="text">Evidencias del diseño inteligente</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="22-el-vuelo">
-        <li class="text">El vuelo</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="23-final-del-recorrido">
-        <li class="text">Final del recorrido</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="24-salida">
-        <li class="text">Salida</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="25-vista-area-4">
-        <li class="text">Vista aérea 4</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="26-vista-area-3">
-        <li class="text">Vista aérea 3</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="27-vista-area-2">
-        <li class="text">Vista aérea 2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="28-vista-area-1">
-        <li class="text">Vista aérea 1</li>
-      </a>
-    
-  </ul>
-</div>
+  <div id="pano"></div>
 
-<div id="titleBar">
-  <h1 class="sceneName"></h1>
-</div>
+  <div id="sceneList">
+    <ul class="scenes">
+    </ul>
+  </div>
 
-<a href="javascript:void(0)" id="autorotateToggle">
-  <img class="icon off" src="img/play.png">
-  <img class="icon on" src="img/pause.png">
-</a>
+  <div id="titleBar">
+    <h1 class="sceneName"></h1>
+  </div>
 
-<a href="javascript:void(0)" id="fullscreenToggle">
-  <img class="icon off" src="img/fullscreen.png">
-  <img class="icon on" src="img/windowed.png">
-</a>
+  <a href="javascript:void(0)" id="autorotateToggle" style="display: none;">
+    <img class="icon off" src="img/play.png">
+    <img class="icon on" src="img/pause.png">
+  </a>
 
-<a href="javascript:void(0)" id="sceneListToggle">
-  <img class="icon off" src="img/expand.png">
-  <img class="icon on" src="img/collapse.png">
-</a>
+  <a href="javascript:void(0)" id="fullscreenToggle">
+    <img class="icon off" src="img/fullscreen.png">
+    <img class="icon on" src="img/windowed.png">
+  </a>
 
-<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="img/up.png">
-</a>
-<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="img/down.png">
-</a>
-<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="img/left.png">
-</a>
-<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="img/right.png">
-</a>
-<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="img/plus.png">
-</a>
-<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="img/minus.png">
-</a>
+  <a href="javascript:void(0)" id="sceneListToggle">
+    <img class="icon off" src="img/menu.svg">
+    <img class="icon on" src="img/close.svg">
+  </a>
 
-<script src="vendor/screenfull.min.js" ></script>
-<script src="vendor/bowser.min.js" ></script>
-<script src="vendor/marzipano.js" ></script>
+  <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+    <img class="icon" src="img/up.png">
+  </a>
+  <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+    <img class="icon" src="img/down.png">
+  </a>
+  <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+    <img class="icon" src="img/left.png">
+  </a>
+  <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+    <img class="icon" src="img/right.png">
+  </a>
+  <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+    <img class="icon" src="img/plus.png">
+  </a>
+  <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+    <img class="icon" src="img/minus.png">
+  </a>
 
-<script src="data.js"></script>
-<script src="index.js"></script>
+  <script src="vendor/screenfull.min.js"></script>
+  <script src="vendor/bowser.min.js"></script>
+  <script src="vendor/marzipano.js"></script>
 
+  <script src="data.js"></script>
+
+  <script>
+    document.title = APP_DATA.name;
+
+    var el = document.querySelector('#sceneList ul');
+
+    APP_DATA.scenes.forEach(i => {
+      var a = document.createElement('a');
+      var li = document.createElement('li');
+
+      a.classList.add('scene');
+      a.setAttribute('data-id', i.id);
+      a.setAttribute('href', 'javascript:void(0)');
+
+      li.classList.add('text');
+      li.innerHTML = i.name;
+
+      a.appendChild(li);
+      el.appendChild(a);
+
+    });
+  </script>
+
+  <script src="index.js"></script>
 </body>
+
 </html>
