@@ -14,6 +14,10 @@
 
 <div id="sceneList">
   <ul class="scenes">
+	  <a href="javascript:void(0)" class="scene" data-id="">
+         <audio class="scene" id="myaudio" loop autoplay controls src="audio/background.mp3"></audio>
+		 <li class="text"></li>
+	  </a>
     
       <a href="javascript:void(0)" class="scene" data-id="0-1-museo">
         <li class="text">1. Museo</li>
@@ -137,6 +141,11 @@
 <div id="titleBar">
   <h1 class="sceneName"></h1>
 </div>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.4;
+</script>
 
 <a href="javascript:void(0)" id="autorotateToggle">
   <img class="icon off" src="img/play.png">
