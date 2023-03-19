@@ -1831,8 +1831,8 @@ var APP_DATA = {
   "name": "Paseo Virtual Cooksonia",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": true,
-    "viewControlButtons": true
+    "viewControlButtons": false
   }
 };
