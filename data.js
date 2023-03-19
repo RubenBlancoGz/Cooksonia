@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-museo",
-      "name": "Museo",
+      "id": "0-1-museo",
+      "name": "1. Museo",
       "levels": [
         {
           "tileSize": 256,
@@ -33,13 +33,13 @@ var APP_DATA = {
           "yaw": 0.03120929626371627,
           "pitch": 0.22048313285120003,
           "rotation": 6.283185307179586,
-          "target": "2-entrada"
+          "target": "2-3-entrada"
         },
         {
           "yaw": -0.9132277080460565,
           "pitch": 0.11950874321387062,
           "rotation": 0,
-          "target": "1-jardn"
+          "target": "1-2-jardn"
         },
         {
           "yaw": 3.055536997281287,
@@ -64,8 +64,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-jardn",
-      "name": "Jardín",
+      "id": "1-2-jardn",
+      "name": "2. Jardín",
       "levels": [
         {
           "tileSize": 256,
@@ -96,7 +96,7 @@ var APP_DATA = {
           "yaw": 1.126868090756311,
           "pitch": 0.22146215733356556,
           "rotation": 0,
-          "target": "0-museo"
+          "target": "0-1-museo"
         },
         {
           "yaw": 1.7301851228188436,
@@ -108,8 +108,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-entrada",
-      "name": "Entrada",
+      "id": "2-3-entrada",
+      "name": "3. Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -140,19 +140,19 @@ var APP_DATA = {
           "yaw": -2.8397860632016823,
           "pitch": 0.6604060760152493,
           "rotation": 0,
-          "target": "3-sala-audiovisual"
+          "target": "3-4-sala-audiovisual"
         },
         {
           "yaw": -2.9090811791469484,
           "pitch": 0.28035539767571827,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "4-5-sala-de-espera---pasillo"
         },
         {
           "yaw": 0.09375498327202969,
           "pitch": 0.5000779403618179,
           "rotation": 0,
-          "target": "0-museo"
+          "target": "0-1-museo"
         },
         {
           "yaw": 0.0247533667081008,
@@ -171,8 +171,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "3-sala-audiovisual",
-      "name": "Sala audiovisual",
+      "id": "3-4-sala-audiovisual",
+      "name": "4. Sala audiovisual",
       "levels": [
         {
           "tileSize": 256,
@@ -203,19 +203,19 @@ var APP_DATA = {
           "yaw": 2.8034489948660584,
           "pitch": 0.7439932586519014,
           "rotation": 0,
-          "target": "2-entrada"
+          "target": "2-3-entrada"
         },
         {
           "yaw": 2.707585355282429,
           "pitch": 0.3380061812193986,
           "rotation": 0,
-          "target": "0-museo"
+          "target": "0-1-museo"
         },
         {
           "yaw": -0.3919436777564371,
           "pitch": 0.3746540592796137,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "4-5-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": [
@@ -228,8 +228,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-sala-de-espera---pasillo",
-      "name": "Sala de espera - pasillo",
+      "id": "4-5-sala-de-espera---pasillo",
+      "name": "5. Sala de espera - pasillo",
       "levels": [
         {
           "tileSize": 256,
@@ -264,31 +264,31 @@ var APP_DATA = {
           "yaw": -3.0542542453512347,
           "pitch": 0.4045848567012005,
           "rotation": 0,
-          "target": "5-sala-de-espera"
+          "target": "5-6-sala-de-espera"
         },
         {
           "yaw": 2.439351416657768,
           "pitch": 0.531174164818804,
           "rotation": 0,
-          "target": "6-inicio"
+          "target": "6-7-inicio"
         },
         {
           "yaw": -1.4994255239033798,
           "pitch": 0.490866197280031,
           "rotation": 0,
-          "target": "3-sala-audiovisual"
+          "target": "3-4-sala-audiovisual"
         },
         {
           "yaw": -1.4691564769026648,
           "pitch": 0.2933988265206615,
           "rotation": 0,
-          "target": "2-entrada"
+          "target": "2-3-entrada"
         },
         {
           "yaw": -0.7133238525956802,
           "pitch": 0.10124430085482317,
           "rotation": 0,
-          "target": "1-jardn"
+          "target": "1-2-jardn"
         }
       ],
       "infoHotspots": [
@@ -301,8 +301,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "5-sala-de-espera",
-      "name": "Sala de espera",
+      "id": "5-6-sala-de-espera",
+      "name": "6. Sala de espera",
       "levels": [
         {
           "tileSize": 256,
@@ -333,14 +333,14 @@ var APP_DATA = {
           "yaw": 1.5452007454413952,
           "pitch": 0.4095295396295029,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "4-5-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-inicio",
-      "name": "Inicio",
+      "id": "6-7-inicio",
+      "name": "7. Inicio",
       "levels": [
         {
           "tileSize": 256,
@@ -370,21 +370,21 @@ var APP_DATA = {
         {
           "yaw": -1.3121941296234603,
           "pitch": 0.5692347810977054,
-          "rotation": 4.71238898038469,
-          "target": "7-cmo-se-forman-los-fsiles"
+          "rotation": 6.283185307179586,
+          "target": "7-8-cmo-se-forman-los-fsiles"
         },
         {
           "yaw": 0.9555724292745005,
           "pitch": 0.5230238966613854,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "4-5-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-cmo-se-forman-los-fsiles",
-      "name": "Cómo se forman los fósiles",
+      "id": "7-8-cmo-se-forman-los-fsiles",
+      "name": "8. Cómo se forman los fósiles",
       "levels": [
         {
           "tileSize": 256,
@@ -415,32 +415,32 @@ var APP_DATA = {
           "yaw": 1.9857731545313522,
           "pitch": 0.6018341821674831,
           "rotation": 0,
-          "target": "6-inicio"
+          "target": "6-7-inicio"
         },
         {
           "yaw": -3.0515074955526735,
           "pitch": 0.7422947633281805,
           "rotation": 0,
-          "target": "8-fosilizacin-excepcional"
+          "target": "8-9-fosilizacin-excepcional"
         },
         {
           "yaw": -3.040622290782645,
           "pitch": 0.39210842400928847,
           "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
+          "target": "9-10-las-rocas-y-la-formacin-de-fsiles"
         },
         {
           "yaw": -2.844998178594146,
           "pitch": 0.27564379937433614,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-fosilizacin-excepcional",
-      "name": "Fosilización Excepcional",
+      "id": "8-9-fosilizacin-excepcional",
+      "name": "9. Fosilización Excepcional",
       "levels": [
         {
           "tileSize": 256,
@@ -471,26 +471,26 @@ var APP_DATA = {
           "yaw": -2.998620052714177,
           "pitch": 0.7377842479550765,
           "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
+          "target": "9-10-las-rocas-y-la-formacin-de-fsiles"
         },
         {
           "yaw": -2.68474699145729,
           "pitch": 0.3691795285995685,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         },
         {
           "yaw": 0.16544893207487732,
           "pitch": 0.6786285370758858,
           "rotation": 0,
-          "target": "7-cmo-se-forman-los-fsiles"
+          "target": "7-8-cmo-se-forman-los-fsiles"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9-las-rocas-y-la-formacin-de-fsiles",
-      "name": "Las rocas y la formación de fósiles",
+      "id": "9-10-las-rocas-y-la-formacin-de-fsiles",
+      "name": "10. Las rocas y la formación de fósiles",
       "levels": [
         {
           "tileSize": 256,
@@ -521,38 +521,38 @@ var APP_DATA = {
           "yaw": 0.9363664120021031,
           "pitch": 0.7714418363556543,
           "rotation": 0,
-          "target": "8-fosilizacin-excepcional"
+          "target": "8-9-fosilizacin-excepcional"
         },
         {
           "yaw": 0.9640506971586777,
           "pitch": 0.40599761013745983,
           "rotation": 0,
-          "target": "7-cmo-se-forman-los-fsiles"
+          "target": "7-8-cmo-se-forman-los-fsiles"
         },
         {
           "yaw": -1.6585000335733842,
           "pitch": 0.4909930258457962,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         },
         {
           "yaw": -0.7732600418659299,
           "pitch": 0.4280684287540346,
           "rotation": 0,
-          "target": "11-inicio-registro-fsil"
+          "target": "11-12-inicio-registro-fsil"
         },
         {
           "yaw": -0.41254359839514976,
           "pitch": 0.36141934002522547,
           "rotation": 1.5707963267948966,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10-tectnica-de-placas",
-      "name": "Tectónica de Placas",
+      "id": "10-11-tectnica-de-placas",
+      "name": "11. Tectónica de Placas",
       "levels": [
         {
           "tileSize": 256,
@@ -583,38 +583,38 @@ var APP_DATA = {
           "yaw": -1.9608857647197269,
           "pitch": 0.3369231762671223,
           "rotation": 0,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
           "yaw": -0.6788712685005969,
           "pitch": 0.5454002711132695,
           "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
+          "target": "9-10-las-rocas-y-la-formacin-de-fsiles"
         },
         {
           "yaw": -0.9065204502257505,
           "pitch": 0.3396770251615244,
           "rotation": 0,
-          "target": "8-fosilizacin-excepcional"
+          "target": "8-9-fosilizacin-excepcional"
         },
         {
           "yaw": -2.0796269317993836,
           "pitch": 0.49310060153043267,
           "rotation": 0,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
           "yaw": -2.6298729559916936,
           "pitch": 0.29883022259811476,
           "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
+          "target": "15-16-huellas-en-bolivia-y-catastrofismo-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "11-inicio-registro-fsil",
-      "name": "Inicio Registro Fósil",
+      "id": "11-12-inicio-registro-fsil",
+      "name": "12. Inicio Registro Fósil",
       "levels": [
         {
           "tileSize": 256,
@@ -645,44 +645,44 @@ var APP_DATA = {
           "yaw": 1.247458088571765,
           "pitch": 0.7200746335475063,
           "rotation": 0,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
           "yaw": 0.8642670943249335,
           "pitch": 0.5363898685468342,
           "rotation": 0,
-          "target": "13-registro-fsil---huellas"
+          "target": "13-14-registro-fsil---huellas"
         },
         {
           "yaw": -0.05023110864983593,
           "pitch": 0.3544708864992199,
           "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
+          "target": "15-16-huellas-en-bolivia-y-catastrofismo-"
         },
         {
           "yaw": -1.9738287591258228,
           "pitch": 0.5376897011753776,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         },
         {
           "yaw": -2.8954946584753625,
           "pitch": 0.47611319751580083,
           "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
+          "target": "9-10-las-rocas-y-la-formacin-de-fsiles"
         },
         {
           "yaw": 2.9103787636408702,
           "pitch": 0.4065257465030747,
           "rotation": 0,
-          "target": "8-fosilizacin-excepcional"
+          "target": "8-9-fosilizacin-excepcional"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil",
-      "name": "Registro Fósil - Aparición abrupta en el registro fósil",
+      "id": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil",
+      "name": "13. Registro Fósil - Aparición abrupta en el registro fósil",
       "levels": [
         {
           "tileSize": 256,
@@ -713,38 +713,38 @@ var APP_DATA = {
           "yaw": -1.20896892708687,
           "pitch": 0.9054538900786504,
           "rotation": 0,
-          "target": "11-inicio-registro-fsil"
+          "target": "11-12-inicio-registro-fsil"
         },
         {
           "yaw": -1.2751468674811512,
           "pitch": 0.3673996548861673,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         },
         {
           "yaw": -1.9425394786004517,
           "pitch": 0.37521818767014636,
           "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
+          "target": "9-10-las-rocas-y-la-formacin-de-fsiles"
         },
         {
           "yaw": 1.3066887011505983,
           "pitch": 0.6696921575477504,
           "rotation": 0,
-          "target": "13-registro-fsil---huellas"
+          "target": "13-14-registro-fsil---huellas"
         },
         {
           "yaw": 1.308096860238292,
           "pitch": 0.44524822243252515,
           "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
+          "target": "14-15-registro-fsil---diseo-inteligente"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "13-registro-fsil---huellas",
-      "name": "Registro Fósil - Huellas",
+      "id": "13-14-registro-fsil---huellas",
+      "name": "14. Registro Fósil - Huellas",
       "levels": [
         {
           "tileSize": 256,
@@ -775,26 +775,26 @@ var APP_DATA = {
           "yaw": 1.4777123340262577,
           "pitch": 0.7138788412067161,
           "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
+          "target": "14-15-registro-fsil---diseo-inteligente"
         },
         {
           "yaw": -1.5809426399917488,
           "pitch": 0.6969092216994994,
           "rotation": 0,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
           "yaw": -1.3007614958448617,
           "pitch": 0.5266504943050094,
           "rotation": 0,
-          "target": "11-inicio-registro-fsil"
+          "target": "11-12-inicio-registro-fsil"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "14-registro-fsil---diseo-inteligente",
-      "name": "Registro Fósil - Diseño Inteligente",
+      "id": "14-15-registro-fsil---diseo-inteligente",
+      "name": "15. Registro Fósil - Diseño Inteligente",
       "levels": [
         {
           "tileSize": 256,
@@ -825,32 +825,32 @@ var APP_DATA = {
           "yaw": 1.5088757335161995,
           "pitch": 0.7114400911657199,
           "rotation": 0,
-          "target": "13-registro-fsil---huellas"
+          "target": "13-14-registro-fsil---huellas"
         },
         {
           "yaw": 1.4535932431516683,
           "pitch": 0.4832099520262432,
           "rotation": 0,
-          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+          "target": "12-13-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
           "yaw": 1.6434480342841677,
           "pitch": 0.35729983731053494,
           "rotation": 0,
-          "target": "11-inicio-registro-fsil"
+          "target": "11-12-inicio-registro-fsil"
         },
         {
           "yaw": 2.8189650679449034,
           "pitch": 0.5279060522009189,
           "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
+          "target": "15-16-huellas-en-bolivia-y-catastrofismo-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "15-huellas-en-bolivia-y-catastrofismo-",
-      "name": "Huellas en Bolivia y Catastrofismo ",
+      "id": "15-16-huellas-en-bolivia-y-catastrofismo-",
+      "name": "16. Huellas en Bolivia y Catastrofismo ",
       "levels": [
         {
           "tileSize": 256,
@@ -881,38 +881,38 @@ var APP_DATA = {
           "yaw": -0.8896617918979999,
           "pitch": 0.555455525634029,
           "rotation": 0,
-          "target": "16-pasillo-de-fsiles"
+          "target": "16-17-pasillo-de-fsiles"
         },
         {
           "yaw": 3.0734227318661045,
           "pitch": 0.5392711311442753,
           "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
+          "target": "14-15-registro-fsil---diseo-inteligente"
         },
         {
           "yaw": -1.0744550767221277,
           "pitch": 0.3381695343300706,
           "rotation": 0,
-          "target": "17-fsiles-1"
+          "target": "17-18-fsiles-1"
         },
         {
           "yaw": -1.7460105361872973,
           "pitch": 0.33907790822519246,
           "rotation": 0,
-          "target": "11-inicio-registro-fsil"
+          "target": "11-12-inicio-registro-fsil"
         },
         {
           "yaw": -1.466513692001719,
           "pitch": 0.2584307988658132,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "10-11-tectnica-de-placas"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "16-pasillo-de-fsiles",
-      "name": "Pasillo de fósiles",
+      "id": "16-17-pasillo-de-fsiles",
+      "name": "17. Pasillo de fósiles",
       "levels": [
         {
           "tileSize": 256,
@@ -943,32 +943,32 @@ var APP_DATA = {
           "yaw": -2.3726045111784657,
           "pitch": 0.6427282861829156,
           "rotation": 0,
-          "target": "17-fsiles-1"
+          "target": "17-18-fsiles-1"
         },
         {
           "yaw": -2.4458070833805383,
           "pitch": 0.39985338952995697,
           "rotation": 0,
-          "target": "18-fsiles-2"
+          "target": "18-19-fsiles-2"
         },
         {
           "yaw": 1.0124928511028024,
           "pitch": 0.56092638476205,
           "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
+          "target": "15-16-huellas-en-bolivia-y-catastrofismo-"
         },
         {
           "yaw": 1.4849768542444002,
           "pitch": 0.34079880692666364,
           "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
+          "target": "14-15-registro-fsil---diseo-inteligente"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "17-fsiles-1",
-      "name": "Fósiles 1",
+      "id": "17-18-fsiles-1",
+      "name": "18. Fósiles 1",
       "levels": [
         {
           "tileSize": 256,
@@ -999,26 +999,26 @@ var APP_DATA = {
           "yaw": -1.5938801889216698,
           "pitch": 0.7082011056754425,
           "rotation": 0,
-          "target": "18-fsiles-2"
+          "target": "18-19-fsiles-2"
         },
         {
           "yaw": 1.4893373553931806,
           "pitch": 0.6417271110147329,
           "rotation": 0,
-          "target": "16-pasillo-de-fsiles"
+          "target": "16-17-pasillo-de-fsiles"
         },
         {
           "yaw": -1.504754820867463,
           "pitch": 0.3114100505580595,
           "rotation": 0,
-          "target": "19-fsiles-3"
+          "target": "19-20-fsiles-3"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "18-fsiles-2",
-      "name": "Fósiles 2",
+      "id": "18-19-fsiles-2",
+      "name": "19. Fósiles 2",
       "levels": [
         {
           "tileSize": 256,
@@ -1049,26 +1049,26 @@ var APP_DATA = {
           "yaw": -1.4710733581624194,
           "pitch": 0.5519098010437187,
           "rotation": 0,
-          "target": "19-fsiles-3"
+          "target": "19-20-fsiles-3"
         },
         {
           "yaw": 1.548253552384625,
           "pitch": 0.6534385682255568,
           "rotation": 0,
-          "target": "17-fsiles-1"
+          "target": "17-18-fsiles-1"
         },
         {
           "yaw": 1.5207091081581856,
           "pitch": 0.3696341179002669,
           "rotation": 0,
-          "target": "16-pasillo-de-fsiles"
+          "target": "16-17-pasillo-de-fsiles"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "19-fsiles-3",
-      "name": "Fósiles 3",
+      "id": "19-20-fsiles-3",
+      "name": "20. Fósiles 3",
       "levels": [
         {
           "tileSize": 256,
@@ -1099,38 +1099,38 @@ var APP_DATA = {
           "yaw": -1.876288551511724,
           "pitch": 0.6165484509950083,
           "rotation": 0,
-          "target": "20-informacin-de-tortugas-y-dinosaurios"
+          "target": "20-21-informacin-de-tortugas-y-dinosaurios"
         },
         {
           "yaw": 0.4712439348975366,
           "pitch": 0.5121041798885173,
           "rotation": 0,
-          "target": "18-fsiles-2"
+          "target": "18-19-fsiles-2"
         },
         {
           "yaw": 0.36063787075247866,
           "pitch": 0.31218722841502,
           "rotation": 0,
-          "target": "17-fsiles-1"
+          "target": "17-18-fsiles-1"
         },
         {
           "yaw": 1.9554641287742172,
           "pitch": 0.4095640593458647,
           "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
+          "target": "21-22-evidencias-del-diseo-inteligente"
         },
         {
           "yaw": 1.9644927337037625,
           "pitch": 0.26331103955097745,
           "rotation": 0,
-          "target": "22-el-vuelo"
+          "target": "22-23-el-vuelo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "20-informacin-de-tortugas-y-dinosaurios",
-      "name": "Información de Tortugas y Dinosaurios",
+      "id": "20-21-informacin-de-tortugas-y-dinosaurios",
+      "name": "21. Información de Tortugas y Dinosaurios",
       "levels": [
         {
           "tileSize": 256,
@@ -1160,8 +1160,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "21-evidencias-del-diseo-inteligente",
-      "name": "Evidencias del diseño inteligente",
+      "id": "21-22-evidencias-del-diseo-inteligente",
+      "name": "22. Evidencias del diseño inteligente",
       "levels": [
         {
           "tileSize": 256,
@@ -1192,32 +1192,32 @@ var APP_DATA = {
           "yaw": -2.087915191120871,
           "pitch": 0.5557239370293061,
           "rotation": 0,
-          "target": "22-el-vuelo"
+          "target": "22-23-el-vuelo"
         },
         {
           "yaw": 0.957881720430569,
           "pitch": 0.37401945236680056,
           "rotation": 0,
-          "target": "19-fsiles-3"
+          "target": "19-20-fsiles-3"
         },
         {
           "yaw": 0.6791327674287437,
           "pitch": 0.26425665891068917,
           "rotation": 0,
-          "target": "18-fsiles-2"
+          "target": "18-19-fsiles-2"
         },
         {
           "yaw": -2.4972344179939476,
           "pitch": 0.39065389599840117,
           "rotation": 0,
-          "target": "23-final-del-recorrido"
+          "target": "23-24-final-del-recorrido"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "22-el-vuelo",
-      "name": "El vuelo",
+      "id": "22-23-el-vuelo",
+      "name": "23. El vuelo",
       "levels": [
         {
           "tileSize": 256,
@@ -1248,26 +1248,26 @@ var APP_DATA = {
           "yaw": 2.822683949767974,
           "pitch": 0.42754251865973636,
           "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
+          "target": "21-22-evidencias-del-diseo-inteligente"
         },
         {
           "yaw": 2.859957862622565,
           "pitch": 0.2543018093957432,
           "rotation": 0,
-          "target": "19-fsiles-3"
+          "target": "19-20-fsiles-3"
         },
         {
           "yaw": -1.1433742990345355,
           "pitch": 0.6943328643378823,
           "rotation": 0,
-          "target": "23-final-del-recorrido"
+          "target": "23-24-final-del-recorrido"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "23-final-del-recorrido",
-      "name": "Final del recorrido",
+      "id": "23-24-final-del-recorrido",
+      "name": "24. Final del recorrido",
       "levels": [
         {
           "tileSize": 256,
@@ -1298,26 +1298,26 @@ var APP_DATA = {
           "yaw": 1.8035938887792753,
           "pitch": 0.7110000824197868,
           "rotation": 0,
-          "target": "22-el-vuelo"
+          "target": "22-23-el-vuelo"
         },
         {
           "yaw": 0.7490496700523899,
           "pitch": 0.5509281580850605,
           "rotation": 5.497787143782138,
-          "target": "24-salida"
+          "target": "24-25-salida"
         },
         {
           "yaw": 2.2652500749902433,
           "pitch": 0.327899021003093,
           "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
+          "target": "21-22-evidencias-del-diseo-inteligente"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "24-salida",
-      "name": "Salida",
+      "id": "24-25-salida",
+      "name": "25. Salida",
       "levels": [
         {
           "tileSize": 256,
@@ -1348,13 +1348,13 @@ var APP_DATA = {
           "yaw": 0.7940370779950712,
           "pitch": 0.5047856384633072,
           "rotation": 5.497787143782138,
-          "target": "23-final-del-recorrido"
+          "target": "23-24-final-del-recorrido"
         },
         {
           "yaw": 2.007524531782378,
           "pitch": 0.4454824605970238,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "4-5-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
@@ -1584,13 +1584,13 @@ var APP_DATA = {
           "yaw": -2.896120327198977,
           "pitch": 1.0423054672781014,
           "rotation": 0,
-          "target": "0-museo"
+          "target": "0-1-museo"
         },
         {
           "yaw": 3.131197592339311,
           "pitch": 0.9307634398473361,
           "rotation": 0,
-          "target": "1-jardn"
+          "target": "1-2-jardn"
         },
         {
           "yaw": -1.4663770477639293,
@@ -1828,11 +1828,11 @@ var APP_DATA = {
       ]
     }
   ],
-  "name": "Project Title",
+  "name": "Paseo Virtual Cooksonia",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": true,
-    "viewControlButtons": false
+    "viewControlButtons": true
   }
 };
