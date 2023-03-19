@@ -24,40 +24,40 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 0.006713818411384409,
-        "pitch": -0.2276156338772246,
+        "yaw": -0.022823536372243325,
+        "pitch": -0.19041310410639767,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.05047386142971,
-          "pitch": 0.1880571291186275,
-          "rotation": 0,
+          "yaw": 0.03120929626371627,
+          "pitch": 0.22048313285120003,
+          "rotation": 6.283185307179586,
           "target": "2-entrada"
         },
         {
-          "yaw": -0.8861843153452327,
-          "pitch": 0.11468984831906859,
+          "yaw": -0.9132277080460565,
+          "pitch": 0.11950874321387062,
           "rotation": 0,
           "target": "1-jardn"
         },
         {
-          "yaw": 2.7356848096414437,
-          "pitch": -0.5262904194719376,
+          "yaw": 3.055536997281287,
+          "pitch": -0.7022785250298185,
           "rotation": 0,
-          "target": "27-vista-area-2"
-        },
-        {
-          "yaw": -1.390997180348311,
-          "pitch": -0.28664123707107336,
-          "rotation": 0,
-          "target": "28-vista-area-1"
+          "target": "27-vista-area---museo"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.44041681259102106,
-          "pitch": -0.15579483831008467,
+          "yaw": 1.9822339280675445,
+          "pitch": -0.07802459516926419,
+          "title": "Bloque de aulas de la UAB",
+          "text": ""
+        },
+        {
+          "yaw": 0.4096855278720959,
+          "pitch": -0.14340545544030903,
           "title": "Cooksonia - Centro de Estudios de la Naturaleza",
           "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!"
         }
@@ -87,38 +87,25 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.71469458742407,
-        "pitch": -0.006390488896499846,
+        "yaw": 0.8297026751788756,
+        "pitch": -0.08587511377897705,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.0929669786045881,
-          "pitch": 0.20504161554890032,
+          "yaw": 1.126868090756311,
+          "pitch": 0.22146215733356556,
           "rotation": 0,
           "target": "0-museo"
         },
         {
-          "yaw": 1.8046260618988237,
-          "pitch": -0.40933050671361215,
+          "yaw": 1.7301851228188436,
+          "pitch": -0.3743465417506364,
           "rotation": 0,
-          "target": "27-vista-area-2"
-        },
-        {
-          "yaw": -2.4021815989366093,
-          "pitch": -0.36590802349839,
-          "rotation": 0,
-          "target": "28-vista-area-1"
+          "target": "27-vista-area---museo"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 1.1238068310962603,
-          "pitch": -0.09569192236244106,
-          "title": "Bloque de aulas de la UAB",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "2-entrada",
@@ -144,34 +131,40 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -2.4523525819368786,
-        "pitch": 0.20181865901480833,
+        "yaw": -2.9162003601422324,
+        "pitch": 0.09165430804539376,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -2.815609503934766,
-          "pitch": 0.7251871000089416,
+          "yaw": -2.8397860632016823,
+          "pitch": 0.6604060760152493,
           "rotation": 0,
           "target": "3-sala-audiovisual"
         },
         {
-          "yaw": 0.11521359150098398,
-          "pitch": 0.4907125083760686,
+          "yaw": -2.9090811791469484,
+          "pitch": 0.28035539767571827,
+          "rotation": 0,
+          "target": "4-sala-de-espera---pasillo"
+        },
+        {
+          "yaw": 0.09375498327202969,
+          "pitch": 0.5000779403618179,
           "rotation": 0,
           "target": "0-museo"
         },
         {
-          "yaw": -2.917305669610675,
-          "pitch": 0.2930361680887863,
+          "yaw": 0.0247533667081008,
+          "pitch": -0.528726163163757,
           "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "target": "27-vista-area---museo"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.7458570838167162,
-          "pitch": -0.10524909623606682,
+          "yaw": -1.901315334936367,
+          "pitch": -0.09779101158362025,
           "title": "Sala audiovisual",
           "text": ""
         }
@@ -201,41 +194,35 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 0.1436057450806576,
-        "pitch": 0.15291882778045185,
+        "yaw": -0.3893426792910475,
+        "pitch": 0.05227026387234446,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 2.7908402963059142,
-          "pitch": 0.7007040554113537,
+          "yaw": 2.8034489948660584,
+          "pitch": 0.7439932586519014,
           "rotation": 0,
           "target": "2-entrada"
         },
         {
-          "yaw": 2.719306064720059,
-          "pitch": 0.34142507700042124,
+          "yaw": 2.707585355282429,
+          "pitch": 0.3380061812193986,
           "rotation": 0,
           "target": "0-museo"
         },
         {
-          "yaw": -0.4240268394544131,
-          "pitch": 0.3767404539415651,
+          "yaw": -0.3919436777564371,
+          "pitch": 0.3746540592796137,
           "rotation": 0,
           "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.1100793939938605,
-          "pitch": -0.1514880708198838,
+          "yaw": 0.9217622232921254,
+          "pitch": -0.16168635513736973,
           "title": "Sala audiovisual",
-          "text": ""
-        },
-        {
-          "yaw": -3.129984648306321,
-          "pitch": 0.11942241948954369,
-          "title": "Salida",
           "text": ""
         }
       ]
@@ -260,52 +247,56 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
         }
       ],
-      "faceSize": 1632,
+      "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": 2.473686811036657,
-        "pitch": 0.0072601764201003505,
+        "yaw": 2.2834022115857344,
+        "pitch": 0.1295254094025502,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -1.5025050527011494,
-          "pitch": 0.4663063709786588,
-          "rotation": 0,
-          "target": "3-sala-audiovisual"
-        },
-        {
-          "yaw": 2.4112472207993765,
-          "pitch": 0.5170752815484043,
-          "rotation": 0,
-          "target": "6-inicio"
-        },
-        {
-          "yaw": -3.024248975554034,
-          "pitch": 0.40283493288815997,
+          "yaw": -3.0542542453512347,
+          "pitch": 0.4045848567012005,
           "rotation": 0,
           "target": "5-sala-de-espera"
         },
         {
-          "yaw": -0.7316038930407309,
-          "pitch": 0.23709916278607324,
+          "yaw": 2.439351416657768,
+          "pitch": 0.531174164818804,
+          "rotation": 0,
+          "target": "6-inicio"
+        },
+        {
+          "yaw": -1.4994255239033798,
+          "pitch": 0.490866197280031,
+          "rotation": 0,
+          "target": "3-sala-audiovisual"
+        },
+        {
+          "yaw": -1.4691564769026648,
+          "pitch": 0.2933988265206615,
+          "rotation": 0,
+          "target": "2-entrada"
+        },
+        {
+          "yaw": -0.7133238525956802,
+          "pitch": 0.10124430085482317,
           "rotation": 0,
           "target": "1-jardn"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.4382456118928593,
-          "pitch": 0.3561542535871691,
+          "yaw": 2.4167886004449626,
+          "pitch": 0.20717244880142438,
           "title": "INICIO",
-          "text": "Disfrute su recorrido virtual por el museo"
-        },
-        {
-          "yaw": -0.7345158467406918,
-          "pitch": 0.0929080752017235,
-          "title": "Salida de Emergencia",
-          "text": ""
+          "text": "Disfrute el recorrido virtual por el museo"
         }
       ]
     },
@@ -333,14 +324,14 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 2.2653227485271996,
-        "pitch": 0.30091388791503704,
+        "yaw": -1.6669925287976959,
+        "pitch": 0.3086438911908598,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.567636680314445,
-          "pitch": 0.3970213557569764,
+          "yaw": 1.5452007454413952,
+          "pitch": 0.4095295396295029,
           "rotation": 0,
           "target": "4-sala-de-espera---pasillo"
         }
@@ -371,22 +362,22 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.3790089737850355,
-        "pitch": 0.31556152486899336,
+        "yaw": -0.807796503448186,
+        "pitch": 0.26439738527339784,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.9565703456474566,
-          "pitch": 0.532604166705795,
-          "rotation": 0,
-          "target": "4-sala-de-espera---pasillo"
+          "yaw": -1.3121941296234603,
+          "pitch": 0.5692347810977054,
+          "rotation": 4.71238898038469,
+          "target": "7-cmo-se-forman-los-fsiles"
         },
         {
-          "yaw": -1.315685618971516,
-          "pitch": 0.5521409812857598,
-          "rotation": 10.995574287564278,
-          "target": "7-cmo-se-forman-los-fsiles"
+          "yaw": 0.9555724292745005,
+          "pitch": 0.5230238966613854,
+          "rotation": 0,
+          "target": "4-sala-de-espera---pasillo"
         }
       ],
       "infoHotspots": []
@@ -415,32 +406,32 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 2.950826297212263,
-        "pitch": 0.2826108882597289,
+        "yaw": 3.131015147617065,
+        "pitch": 0.4085609965161048,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.9723146737964052,
-          "pitch": 0.5704955006916954,
+          "yaw": 1.9857731545313522,
+          "pitch": 0.6018341821674831,
           "rotation": 0,
           "target": "6-inicio"
         },
         {
-          "yaw": -3.058821430668834,
-          "pitch": 0.6667482562787068,
+          "yaw": -3.0515074955526735,
+          "pitch": 0.7422947633281805,
           "rotation": 0,
           "target": "8-fosilizacin-excepcional"
         },
         {
-          "yaw": -3.0564364670854474,
-          "pitch": 0.4252668315688606,
+          "yaw": -3.040622290782645,
+          "pitch": 0.39210842400928847,
           "rotation": 0,
           "target": "9-las-rocas-y-la-formacin-de-fsiles"
         },
         {
-          "yaw": -2.833670782497368,
-          "pitch": 0.26836278659551915,
+          "yaw": -2.844998178594146,
+          "pitch": 0.27564379937433614,
           "rotation": 0,
           "target": "10-tectnica-de-placas"
         }
@@ -471,26 +462,26 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -2.5750178989733197,
-        "pitch": 0.3247016286669471,
+        "yaw": -2.671116878860415,
+        "pitch": 0.17408470766946493,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -3.018239127700433,
-          "pitch": 0.7411725558633808,
+          "yaw": -2.998620052714177,
+          "pitch": 0.7377842479550765,
           "rotation": 0,
           "target": "9-las-rocas-y-la-formacin-de-fsiles"
         },
         {
-          "yaw": -2.657830551647338,
-          "pitch": 0.3703188064156855,
+          "yaw": -2.68474699145729,
+          "pitch": 0.3691795285995685,
           "rotation": 0,
           "target": "10-tectnica-de-placas"
         },
         {
-          "yaw": 0.23846806595927106,
-          "pitch": 0.6742824337120066,
+          "yaw": 0.16544893207487732,
+          "pitch": 0.6786285370758858,
           "rotation": 0,
           "target": "7-cmo-se-forman-los-fsiles"
         }
@@ -521,39 +512,39 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.323182577248069,
-        "pitch": 0.1929017932644772,
+        "yaw": -1.5690062455107885,
+        "pitch": 0.11138694468211696,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -1.6117184634665769,
-          "pitch": 0.5003112445371531,
-          "rotation": 0,
-          "target": "10-tectnica-de-placas"
-        },
-        {
-          "yaw": 1.2172160191415262,
-          "pitch": 1.0126406940087858,
+          "yaw": 0.9363664120021031,
+          "pitch": 0.7714418363556543,
           "rotation": 0,
           "target": "8-fosilizacin-excepcional"
         },
         {
-          "yaw": 1.0034175599121156,
-          "pitch": 0.4275104845593969,
+          "yaw": 0.9640506971586777,
+          "pitch": 0.40599761013745983,
           "rotation": 0,
           "target": "7-cmo-se-forman-los-fsiles"
         },
         {
-          "yaw": -0.7847137293202842,
-          "pitch": 0.4242340801652098,
+          "yaw": -1.6585000335733842,
+          "pitch": 0.4909930258457962,
+          "rotation": 0,
+          "target": "10-tectnica-de-placas"
+        },
+        {
+          "yaw": -0.7732600418659299,
+          "pitch": 0.4280684287540346,
           "rotation": 0,
           "target": "11-inicio-registro-fsil"
         },
         {
-          "yaw": -0.4507417090486605,
-          "pitch": 0.33932542549687383,
-          "rotation": 0,
+          "yaw": -0.41254359839514976,
+          "pitch": 0.36141934002522547,
+          "rotation": 1.5707963267948966,
           "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         }
       ],
@@ -583,46 +574,40 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -2.4879010218612034,
-        "pitch": 0.2671967822069288,
+        "yaw": -2.7281675752937,
+        "pitch": 0.1986136684639206,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -0.6744164993639021,
-          "pitch": 0.5519666031451962,
+          "yaw": -1.9608857647197269,
+          "pitch": 0.3369231762671223,
+          "rotation": 0,
+          "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+        },
+        {
+          "yaw": -0.6788712685005969,
+          "pitch": 0.5454002711132695,
           "rotation": 0,
           "target": "9-las-rocas-y-la-formacin-de-fsiles"
         },
         {
-          "yaw": -0.848177953985843,
-          "pitch": 0.330207814260163,
+          "yaw": -0.9065204502257505,
+          "pitch": 0.3396770251615244,
           "rotation": 0,
           "target": "8-fosilizacin-excepcional"
         },
         {
-          "yaw": -1.0150121870891216,
-          "pitch": 0.22733959145517701,
-          "rotation": 0,
-          "target": "7-cmo-se-forman-los-fsiles"
-        },
-        {
-          "yaw": -2.012098996559347,
-          "pitch": 0.5413539540379286,
-          "rotation": 0,
-          "target": "11-inicio-registro-fsil"
-        },
-        {
-          "yaw": -2.6305395716617834,
-          "pitch": 0.2866203291889988,
-          "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
-        },
-        {
-          "yaw": -1.9538978393790245,
-          "pitch": 0.3545838260807752,
+          "yaw": -2.0796269317993836,
+          "pitch": 0.49310060153043267,
           "rotation": 0,
           "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
+        },
+        {
+          "yaw": -2.6298729559916936,
+          "pitch": 0.29883022259811476,
+          "rotation": 0,
+          "target": "15-huellas-en-bolivia-y-catastrofismo-"
         }
       ],
       "infoHotspots": []
@@ -651,52 +636,46 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 0.7397063704749982,
-        "pitch": 0.31220201057162633,
+        "yaw": 1.109110250425653,
+        "pitch": 0.34879926417684004,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.2042317685137593,
-          "pitch": 0.781751867215144,
+          "yaw": 1.247458088571765,
+          "pitch": 0.7200746335475063,
           "rotation": 0,
           "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
-          "yaw": 0.8656579004984923,
-          "pitch": 0.46831024726618864,
+          "yaw": 0.8642670943249335,
+          "pitch": 0.5363898685468342,
           "rotation": 0,
           "target": "13-registro-fsil---huellas"
         },
         {
-          "yaw": 0.7536573025686373,
-          "pitch": 0.3281870350475433,
+          "yaw": -0.05023110864983593,
+          "pitch": 0.3544708864992199,
           "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
+          "target": "15-huellas-en-bolivia-y-catastrofismo-"
         },
         {
-          "yaw": -1.953192621745572,
-          "pitch": 0.5419581055078755,
+          "yaw": -1.9738287591258228,
+          "pitch": 0.5376897011753776,
           "rotation": 0,
           "target": "10-tectnica-de-placas"
         },
         {
-          "yaw": -2.8220214816445566,
-          "pitch": 0.48007668984991625,
+          "yaw": -2.8954946584753625,
+          "pitch": 0.47611319751580083,
           "rotation": 0,
           "target": "9-las-rocas-y-la-formacin-de-fsiles"
         },
         {
-          "yaw": 2.929946697986221,
-          "pitch": 0.40061649981576863,
+          "yaw": 2.9103787636408702,
+          "pitch": 0.4065257465030747,
           "rotation": 0,
           "target": "8-fosilizacin-excepcional"
-        },
-        {
-          "yaw": -0.053196673429013686,
-          "pitch": 0.34699690357566837,
-          "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
         }
       ],
       "infoHotspots": []
@@ -725,39 +704,39 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 1.4612743343842585,
-        "pitch": 0.2856706384039924,
+        "yaw": 1.3868529574940425,
+        "pitch": 0.25932116854371934,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -1.3124597647402219,
-          "pitch": 0.9060340540066534,
+          "yaw": -1.20896892708687,
+          "pitch": 0.9054538900786504,
           "rotation": 0,
           "target": "11-inicio-registro-fsil"
         },
         {
-          "yaw": -1.253603568973979,
-          "pitch": 0.38458923373903,
+          "yaw": -1.2751468674811512,
+          "pitch": 0.3673996548861673,
           "rotation": 0,
           "target": "10-tectnica-de-placas"
         },
         {
-          "yaw": -1.911250394570784,
-          "pitch": 0.3737065814451732,
+          "yaw": -1.9425394786004517,
+          "pitch": 0.37521818767014636,
           "rotation": 0,
           "target": "9-las-rocas-y-la-formacin-de-fsiles"
         },
         {
-          "yaw": 1.27856964158274,
-          "pitch": 0.7398676997376672,
+          "yaw": 1.3066887011505983,
+          "pitch": 0.6696921575477504,
           "rotation": 0,
           "target": "13-registro-fsil---huellas"
         },
         {
-          "yaw": 1.2950329586078908,
-          "pitch": 0.44313839153314305,
-          "rotation": 4.71238898038469,
+          "yaw": 1.308096860238292,
+          "pitch": 0.44524822243252515,
+          "rotation": 0,
           "target": "14-registro-fsil---diseo-inteligente"
         }
       ],
@@ -787,40 +766,28 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 1.546764503627763,
-        "pitch": 0.4518564755130221,
+        "yaw": 1.6017367454861233,
+        "pitch": 0.26216570221598445,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.4394786446720973,
-          "pitch": 0.6995063067387264,
-          "rotation": 4.71238898038469,
+          "yaw": 1.4777123340262577,
+          "pitch": 0.7138788412067161,
+          "rotation": 0,
           "target": "14-registro-fsil---diseo-inteligente"
         },
         {
-          "yaw": -1.7460658887009863,
-          "pitch": 0.8166977717755444,
+          "yaw": -1.5809426399917488,
+          "pitch": 0.6969092216994994,
           "rotation": 0,
           "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
-          "yaw": -1.2643621335110407,
-          "pitch": 0.5483329868866811,
+          "yaw": -1.3007614958448617,
+          "pitch": 0.5266504943050094,
           "rotation": 0,
           "target": "11-inicio-registro-fsil"
-        },
-        {
-          "yaw": -1.1523832885068508,
-          "pitch": 0.2683825489462688,
-          "rotation": 0,
-          "target": "10-tectnica-de-placas"
-        },
-        {
-          "yaw": -1.686416930569056,
-          "pitch": 0.27851122754155,
-          "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
         }
       ],
       "infoHotspots": []
@@ -849,38 +816,32 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 2.3699862528129962,
-        "pitch": 0.32499051232597154,
+        "yaw": 2.433927450894661,
+        "pitch": 0.41251877573566453,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.5232539549422341,
-          "pitch": 0.726289601076914,
+          "yaw": 1.5088757335161995,
+          "pitch": 0.7114400911657199,
           "rotation": 0,
           "target": "13-registro-fsil---huellas"
         },
         {
-          "yaw": 1.340370190988395,
-          "pitch": 0.46820386841586625,
+          "yaw": 1.4535932431516683,
+          "pitch": 0.4832099520262432,
           "rotation": 0,
           "target": "12-registro-fsil---aparicin-abrupta-en-el-registro-fsil"
         },
         {
-          "yaw": 1.631645236827194,
-          "pitch": 0.3578226700490603,
+          "yaw": 1.6434480342841677,
+          "pitch": 0.35729983731053494,
           "rotation": 0,
           "target": "11-inicio-registro-fsil"
         },
         {
-          "yaw": 1.44476785282954,
-          "pitch": 0.20950235057697242,
-          "rotation": 0,
-          "target": "9-las-rocas-y-la-formacin-de-fsiles"
-        },
-        {
-          "yaw": 2.9144242013740085,
-          "pitch": 0.5177869660774821,
+          "yaw": 2.8189650679449034,
+          "pitch": 0.5279060522009189,
           "rotation": 0,
           "target": "15-huellas-en-bolivia-y-catastrofismo-"
         }
@@ -911,40 +872,40 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.4333438404717462,
-        "pitch": 0.4711894579275757,
+        "yaw": -1.349864469726068,
+        "pitch": 0.24679796048889102,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 3.100319025912521,
-          "pitch": 0.5354993331292377,
-          "rotation": 0,
-          "target": "14-registro-fsil---diseo-inteligente"
-        },
-        {
-          "yaw": -0.8795052980187368,
-          "pitch": 0.5675265873624529,
+          "yaw": -0.8896617918979999,
+          "pitch": 0.555455525634029,
           "rotation": 0,
           "target": "16-pasillo-de-fsiles"
         },
         {
-          "yaw": -1.4657162990844412,
-          "pitch": 0.2565887572732901,
+          "yaw": 3.0734227318661045,
+          "pitch": 0.5392711311442753,
           "rotation": 0,
-          "target": "10-tectnica-de-placas"
+          "target": "14-registro-fsil---diseo-inteligente"
         },
         {
-          "yaw": -1.7453892426085211,
-          "pitch": 0.36872419506653387,
+          "yaw": -1.0744550767221277,
+          "pitch": 0.3381695343300706,
+          "rotation": 0,
+          "target": "17-fsiles-1"
+        },
+        {
+          "yaw": -1.7460105361872973,
+          "pitch": 0.33907790822519246,
           "rotation": 0,
           "target": "11-inicio-registro-fsil"
         },
         {
-          "yaw": -1.0380955302776833,
-          "pitch": 0.3888369204922455,
+          "yaw": -1.466513692001719,
+          "pitch": 0.2584307988658132,
           "rotation": 0,
-          "target": "17-fsiles-1"
+          "target": "10-tectnica-de-placas"
         }
       ],
       "infoHotspots": []
@@ -973,38 +934,37 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -2.2852091395194467,
-        "pitch": 0.45558514617324875,
+        "yaw": -2.334244676884474,
+        "pitch": 0.2457160960301401,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -2.3553009697808918,
-          "pitch": 0.7164819094299126,
+          "yaw": -2.3726045111784657,
+          "pitch": 0.6427282861829156,
           "rotation": 0,
           "target": "17-fsiles-1"
         },
         {
-          "yaw": -2.4270364269768354,
-          "pitch": 0.40751777055306704,
+          "yaw": -2.4458070833805383,
+          "pitch": 0.39985338952995697,
           "rotation": 0,
           "target": "18-fsiles-2"
         },
         {
-          "yaw": 1.1733703702773113,
-          "pitch": 0.6770491074146356,
+          "yaw": 1.0124928511028024,
+          "pitch": 0.56092638476205,
           "rotation": 0,
           "target": "15-huellas-en-bolivia-y-catastrofismo-"
+        },
+        {
+          "yaw": 1.4849768542444002,
+          "pitch": 0.34079880692666364,
+          "rotation": 0,
+          "target": "14-registro-fsil---diseo-inteligente"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -1.6684582167414206,
-          "pitch": -0.18948853565640356,
-          "title": "Laboratorio",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "17-fsiles-1",
@@ -1030,38 +990,31 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.658482339695567,
-        "pitch": 0.23439946455254024,
+        "yaw": -1.6637919421773297,
+        "pitch": 0.2177361965851219,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.4658644348788545,
-          "pitch": 0.6717282358763619,
+          "yaw": -1.5938801889216698,
+          "pitch": 0.7082011056754425,
+          "rotation": 0,
+          "target": "18-fsiles-2"
+        },
+        {
+          "yaw": 1.4893373553931806,
+          "pitch": 0.6417271110147329,
           "rotation": 0,
           "target": "16-pasillo-de-fsiles"
         },
         {
-          "yaw": 1.8000375970276972,
-          "pitch": 0.36722741231546685,
+          "yaw": -1.504754820867463,
+          "pitch": 0.3114100505580595,
           "rotation": 0,
-          "target": "15-huellas-en-bolivia-y-catastrofismo-"
-        },
-        {
-          "yaw": -1.5693719598777438,
-          "pitch": 0.7160080443947283,
-          "rotation": 0,
-          "target": "18-fsiles-2"
+          "target": "19-fsiles-3"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -0.2285090315616305,
-          "pitch": -0.3619910278585312,
-          "title": "Laboratorio",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "18-fsiles-2",
@@ -1087,44 +1040,31 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.595339370167956,
-        "pitch": 0.336823041829696,
+        "yaw": -1.6486637574236198,
+        "pitch": 0.3546926130686696,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 1.5362887847967919,
-          "pitch": 0.6292884081585051,
-          "rotation": 0,
-          "target": "17-fsiles-1"
-        },
-        {
-          "yaw": 1.5407953360352575,
-          "pitch": 0.3664805466406733,
-          "rotation": 0,
-          "target": "16-pasillo-de-fsiles"
-        },
-        {
-          "yaw": -1.484477418253375,
-          "pitch": 0.5316067810620133,
+          "yaw": -1.4710733581624194,
+          "pitch": 0.5519098010437187,
           "rotation": 0,
           "target": "19-fsiles-3"
         },
         {
-          "yaw": -2.4890130743590113,
-          "pitch": 0.3370205391915597,
+          "yaw": 1.548253552384625,
+          "pitch": 0.6534385682255568,
           "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
+          "target": "17-fsiles-1"
+        },
+        {
+          "yaw": 1.5207091081581856,
+          "pitch": 0.3696341179002669,
+          "rotation": 0,
+          "target": "16-pasillo-de-fsiles"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.36630734687322075,
-          "pitch": -0.33055440337641606,
-          "title": "Laboratorio",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "19-fsiles-3",
@@ -1150,60 +1090,47 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 2.3807093046609022,
-        "pitch": 0.2148168943518396,
+        "yaw": 2.86331638124382,
+        "pitch": 0.16495680676596614,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.4805553670247207,
-          "pitch": 0.4995649727017124,
+          "yaw": -1.876288551511724,
+          "pitch": 0.6165484509950083,
+          "rotation": 0,
+          "target": "20-informacin-de-tortugas-y-dinosaurios"
+        },
+        {
+          "yaw": 0.4712439348975366,
+          "pitch": 0.5121041798885173,
           "rotation": 0,
           "target": "18-fsiles-2"
         },
         {
-          "yaw": 0.38064410059958576,
-          "pitch": 0.3069995541572119,
+          "yaw": 0.36063787075247866,
+          "pitch": 0.31218722841502,
           "rotation": 0,
           "target": "17-fsiles-1"
         },
         {
-          "yaw": -1.7659447541750346,
-          "pitch": 0.5959742642769665,
-          "rotation": 0,
-          "target": "20-informacin-tortugas-y-dinosaurios"
-        },
-        {
-          "yaw": 1.875844194610873,
-          "pitch": 0.4089244815937416,
+          "yaw": 1.9554641287742172,
+          "pitch": 0.4095640593458647,
           "rotation": 0,
           "target": "21-evidencias-del-diseo-inteligente"
         },
         {
-          "yaw": 1.9923836812174738,
-          "pitch": 0.2411888002325533,
+          "yaw": 1.9644927337037625,
+          "pitch": 0.26331103955097745,
           "rotation": 0,
           "target": "22-el-vuelo"
-        },
-        {
-          "yaw": 1.7909713520784276,
-          "pitch": 0.1981229510202418,
-          "rotation": 0,
-          "target": "23-final-del-recorrido"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -0.6360573539219843,
-          "pitch": -0.30714294038097023,
-          "title": "Laboratorio",
-          "text": ""
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "20-informacin-tortugas-y-dinosaurios",
-      "name": "Información Tortugas y Dinosaurios",
+      "id": "20-informacin-de-tortugas-y-dinosaurios",
+      "name": "Información de Tortugas y Dinosaurios",
       "levels": [
         {
           "tileSize": 256,
@@ -1225,30 +1152,11 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -0.6868427334523695,
-        "pitch": 0.025455259475721803,
+        "yaw": -1.0595826036866889,
+        "pitch": -0.002167177602380832,
         "fov": 1.3608936558192368
       },
-      "linkHotspots": [
-        {
-          "yaw": 1.7045530595892462,
-          "pitch": 0.6173036471559339,
-          "rotation": 0,
-          "target": "19-fsiles-3"
-        },
-        {
-          "yaw": 2.1129462733406896,
-          "pitch": 0.29612033149724226,
-          "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
-        },
-        {
-          "yaw": 2.2641700768096316,
-          "pitch": 0.2048601916284536,
-          "rotation": 0,
-          "target": "22-el-vuelo"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
@@ -1275,32 +1183,32 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -1.800582931233924,
-        "pitch": 0.2037812412357347,
+        "yaw": -1.790861453212509,
+        "pitch": 0.13237712296877113,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.9657157913766365,
-          "pitch": 0.38571698730003945,
-          "rotation": 0,
-          "target": "19-fsiles-3"
-        },
-        {
-          "yaw": 0.6871273572157737,
-          "pitch": 0.23884488274445914,
-          "rotation": 0,
-          "target": "20-informacin-tortugas-y-dinosaurios"
-        },
-        {
-          "yaw": -2.0952997011981704,
-          "pitch": 0.5582857988053505,
+          "yaw": -2.087915191120871,
+          "pitch": 0.5557239370293061,
           "rotation": 0,
           "target": "22-el-vuelo"
         },
         {
-          "yaw": -2.5046598696369458,
-          "pitch": 0.3938058070526367,
+          "yaw": 0.957881720430569,
+          "pitch": 0.37401945236680056,
+          "rotation": 0,
+          "target": "19-fsiles-3"
+        },
+        {
+          "yaw": 0.6791327674287437,
+          "pitch": 0.26425665891068917,
+          "rotation": 0,
+          "target": "18-fsiles-2"
+        },
+        {
+          "yaw": -2.4972344179939476,
+          "pitch": 0.39065389599840117,
           "rotation": 0,
           "target": "23-final-del-recorrido"
         }
@@ -1331,34 +1239,28 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": -0.017453292519945762,
-        "pitch": 0.4685655797128021,
+        "yaw": 0.19332528110990133,
+        "pitch": 0.0615914425940467,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": -1.1736520111404616,
-          "pitch": 0.6616943966605202,
-          "rotation": 0,
-          "target": "23-final-del-recorrido"
-        },
-        {
-          "yaw": 2.8285601697321248,
-          "pitch": 0.47753543825119493,
+          "yaw": 2.822683949767974,
+          "pitch": 0.42754251865973636,
           "rotation": 0,
           "target": "21-evidencias-del-diseo-inteligente"
         },
         {
-          "yaw": 2.875685721486424,
-          "pitch": 0.27006943867832334,
+          "yaw": 2.859957862622565,
+          "pitch": 0.2543018093957432,
           "rotation": 0,
           "target": "19-fsiles-3"
         },
         {
-          "yaw": 2.663474236554407,
-          "pitch": 0.18876701319132394,
+          "yaw": -1.1433742990345355,
+          "pitch": 0.6943328643378823,
           "rotation": 0,
-          "target": "20-informacin-tortugas-y-dinosaurios"
+          "target": "23-final-del-recorrido"
         }
       ],
       "infoHotspots": []
@@ -1387,34 +1289,28 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 1.5389720125548836,
-        "pitch": 0.2719748648684739,
+        "yaw": 1.547204395147169,
+        "pitch": 0.3981624275126521,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.7355570464868251,
-          "pitch": 0.5150275723592799,
-          "rotation": 0,
-          "target": "24-salida"
-        },
-        {
-          "yaw": 1.7719314877643093,
-          "pitch": 0.7126899875550912,
+          "yaw": 1.8035938887792753,
+          "pitch": 0.7110000824197868,
           "rotation": 0,
           "target": "22-el-vuelo"
         },
         {
-          "yaw": 2.249612045297634,
-          "pitch": 0.3415777875013326,
-          "rotation": 0,
-          "target": "21-evidencias-del-diseo-inteligente"
+          "yaw": 0.7490496700523899,
+          "pitch": 0.5509281580850605,
+          "rotation": 5.497787143782138,
+          "target": "24-salida"
         },
         {
-          "yaw": 2.401534963836216,
-          "pitch": 0.20711358375683453,
+          "yaw": 2.2652500749902433,
+          "pitch": 0.327899021003093,
           "rotation": 0,
-          "target": "19-fsiles-3"
+          "target": "21-evidencias-del-diseo-inteligente"
         }
       ],
       "infoHotspots": []
@@ -1443,20 +1339,20 @@ var APP_DATA = {
       ],
       "faceSize": 1632,
       "initialViewParameters": {
-        "yaw": 1.4735312307465689,
-        "pitch": 0.202960070790132,
+        "yaw": 1.3343659177627938,
+        "pitch": 0.19788028465958973,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 0.8324885249205707,
-          "pitch": 0.49842462262686205,
-          "rotation": 0,
+          "yaw": 0.7940370779950712,
+          "pitch": 0.5047856384633072,
+          "rotation": 5.497787143782138,
           "target": "23-final-del-recorrido"
         },
         {
-          "yaw": 1.987110321234792,
-          "pitch": 0.4462828286170968,
+          "yaw": 2.007524531782378,
+          "pitch": 0.4454824605970238,
           "rotation": 0,
           "target": "4-sala-de-espera---pasillo"
         }
@@ -1464,8 +1360,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "25-vista-area-4",
-      "name": "Vista aérea 4",
+      "id": "25-vista-area---colegio",
+      "name": "Vista aérea - Colegio",
       "levels": [
         {
           "tileSize": 256,
@@ -1487,165 +1383,66 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.8545641432841045,
-        "pitch": 0.7443824585430612,
+        "yaw": 2.9164372826651075,
+        "pitch": 0.6271333549894056,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 2.247860961715575,
-          "pitch": 0.1687756295975973,
+          "yaw": 2.2597174338819768,
+          "pitch": 0.19721378377121113,
           "rotation": 0,
-          "target": "26-vista-area-3"
+          "target": "26-vista-area---biblioteca"
         },
         {
-          "yaw": 2.6800155309522147,
-          "pitch": 0.14499228140377873,
+          "yaw": 2.6719608189616517,
+          "pitch": 0.11781321925556298,
           "rotation": 0,
-          "target": "27-vista-area-2"
+          "target": "27-vista-area---museo"
         },
         {
-          "yaw": 2.9815057838526826,
-          "pitch": 0.09911634679850678,
+          "yaw": 3.0416898124002874,
+          "pitch": 0.08236598949994445,
           "rotation": 0,
-          "target": "28-vista-area-1"
+          "target": "28-vista-area---central"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.7719236964069225,
-          "pitch": 1.0350105657875623,
-          "title": "Colegio UAB",
+          "yaw": 2.5099875809270324,
+          "pitch": 0.157356245977061,
+          "title": "Bloque de aulas de la UAB",
           "text": ""
         },
         {
-          "yaw": 2.137152452457486,
-          "pitch": 0.3711228649211247,
-          "title": "Coliseo José Amasías Justiniano - UAB",
-          "text": ""
-        },
-        {
-          "yaw": -2.9101925292446804,
-          "pitch": 0.15415487910896175,
+          "yaw": -2.911286271057552,
+          "pitch": 0.18253912583838705,
           "title": "Consultorio de atención médica - UAB",
           "text": ""
         },
         {
-          "yaw": 2.4903164557807687,
-          "pitch": 0.17040850276056752,
-          "title": "Bloque de aulas de la UAB",
-          "text": ""
-        },
-        {
-          "yaw": 1.7831070309534613,
-          "pitch": 0.28619020213413293,
-          "title": "Puerta Sur UAB",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "26-vista-area-3",
-      "name": "Vista aérea 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.369961815333096,
-        "pitch": 0.5603488331198001,
-        "fov": 1.3608936558192368
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4346474064352295,
-          "pitch": 0.35074148982641873,
-          "rotation": 0,
-          "target": "27-vista-area-2"
-        },
-        {
-          "yaw": -2.9140216091302094,
-          "pitch": 0.2370883276793343,
-          "rotation": 0,
-          "target": "25-vista-area-4"
-        },
-        {
-          "yaw": 1.600944346959852,
-          "pitch": 0.11456217994859408,
-          "rotation": 0,
-          "target": "28-vista-area-1"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -3.0461444078115214,
-          "pitch": 0.3539136910317673,
-          "title": "Colegio UAB",
-          "text": ""
-        },
-        {
-          "yaw": -2.7469989376309663,
-          "pitch": 0.6927722111282613,
+          "yaw": 2.211839986336206,
+          "pitch": 0.3134685944883664,
           "title": "Coliseo José Amasías Justiniano - UAB",
           "text": ""
         },
         {
-          "yaw": 2.2557074800491588,
-          "pitch": 0.6934940912219538,
-          "title": "Estacionamiento 2 - UAB",
+          "yaw": 2.9147569857783635,
+          "pitch": 0.7407982575552321,
+          "title": "Colegio Adventista UAB",
           "text": ""
         },
         {
-          "yaw": 0.6336088112769307,
-          "pitch": 1.1799980884471495,
-          "title": "Biblioteca - Sighart Klauss",
-          "text": ""
-        },
-        {
-          "yaw": 2.2143671751746403,
-          "pitch": 0.16097807226433503,
-          "title": "Consultorio de atención médica - UAB",
-          "text": ""
-        },
-        {
-          "yaw": -1.662468131121324,
-          "pitch": 0.5263718078812545,
-          "title": "Puerta Sur UAB",
-          "text": "Text"
-        },
-        {
-          "yaw": 1.3201103875382056,
-          "pitch": 0.5626255619854064,
-          "title": "Bloque de aulas de la UAB",
-          "text": ""
-        },
-        {
-          "yaw": 1.7366437808782358,
-          "pitch": 0.22253578018091247,
-          "title": "Comedor - UAB",
+          "yaw": 1.7868593617922048,
+          "pitch": 0.27059871379640654,
+          "title": "Puerta sur de la UAB",
           "text": ""
         }
       ]
     },
     {
-      "id": "27-vista-area-2",
-      "name": "Vista aérea 2",
+      "id": "26-vista-area---biblioteca",
+      "name": "Vista aérea - Biblioteca",
       "levels": [
         {
           "tileSize": 256,
@@ -1667,252 +1464,375 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.9092563708453874,
-        "pitch": 0.8263153390207734,
+        "yaw": 2.408900575834741,
+        "pitch": 0.6459394026259222,
         "fov": 1.3608936558192368
       },
       "linkHotspots": [
         {
-          "yaw": 3.1395953059716817,
-          "pitch": 0.9396299887005632,
+          "yaw": 1.3628046902810507,
+          "pitch": 0.2832907084152758,
           "rotation": 0,
-          "target": "1-jardn"
+          "target": "27-vista-area---museo"
         },
         {
-          "yaw": -2.823020343286405,
-          "pitch": 1.0456155302182335,
-          "rotation": 6.283185307179586,
-          "target": "0-museo"
+          "yaw": -2.8380191777368484,
+          "pitch": 0.2435110241505818,
+          "rotation": 0,
+          "target": "25-vista-area---colegio"
         },
         {
-          "yaw": -1.4932045831628855,
-          "pitch": 0.2789673345791943,
+          "yaw": 1.6093701528330921,
+          "pitch": 0.15769031018985302,
           "rotation": 0,
-          "target": "26-vista-area-3"
-        },
-        {
-          "yaw": 2.099939254957711,
-          "pitch": 0.206817527952591,
-          "rotation": 0,
-          "target": "28-vista-area-1"
-        },
-        {
-          "yaw": -2.0846858972552944,
-          "pitch": 0.15006545389697123,
-          "rotation": 0,
-          "target": "25-vista-area-4"
+          "target": "28-vista-area---central"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.4532011385278736,
-          "pitch": 0.43713848412204115,
-          "title": "Comedor de la UAB",
+          "yaw": 3.1339308341479306,
+          "pitch": 0.26727882620678933,
+          "title": "Colegio Adventista UAB",
           "text": ""
         },
         {
-          "yaw": 1.5722673908266227,
-          "pitch": 0.5483563433947722,
-          "title": "Hogar de Señoritas",
-          "text": ""
-        },
-        {
-          "yaw": 1.8711835565261516,
-          "pitch": 0.17273632865406086,
-          "title": "Hogar de Varones",
-          "text": ""
-        },
-        {
-          "yaw": -1.5438539904132327,
-          "pitch": 0.6723806454019083,
-          "title": "Bloque de aulas de la UAB",
-          "text": ""
-        },
-        {
-          "yaw": -1.3160807986192786,
-          "pitch": 0.3984701577993697,
-          "title": "Biblioteca - Sighart Klauss",
-          "text": ""
-        },
-        {
-          "yaw": -2.8017233454715864,
-          "pitch": 0.8557573045829052,
-          "title": "Cooksonia - Centro de Estudios de la Naturaleza",
-          "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!<br>"
-        },
-        {
-          "yaw": -1.8766780359724056,
-          "pitch": 0.25465545137273793,
+          "yaw": -2.8150396010852976,
+          "pitch": 0.6992725782686193,
           "title": "Coliseo José Amasías Justiniano - UAB",
           "text": ""
         },
         {
-          "yaw": -1.9722905446216359,
-          "pitch": 0.43900641662172113,
+          "yaw": 2.215748324622572,
+          "pitch": 0.6677455437549931,
           "title": "Estacionamiento 2 - UAB",
           "text": ""
         },
         {
-          "yaw": -2.3433383514780086,
-          "pitch": 0.2164046683077281,
-          "title": "Colegio UAB",
+          "yaw": 0.48738860352588986,
+          "pitch": 1.0815372153633476,
+          "title": "Biblioteca - Sighart Klauss",
           "text": ""
         },
         {
-          "yaw": 0.9676890608039486,
-          "pitch": 0.37770882924958116,
-          "title": "Iglesia Universitaria",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "28-vista-area-1",
-      "name": "Vista aérea 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.24445718132526828,
-        "pitch": 0.7171895149048968,
-        "fov": 1.3608936558192368
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.0109548510169084,
-          "pitch": 0.2776856557318048,
-          "rotation": 0,
-          "target": "27-vista-area-2"
-        },
-        {
-          "yaw": 2.771870216019428,
-          "pitch": 0.14944917632202248,
-          "rotation": 0,
-          "target": "26-vista-area-3"
-        },
-        {
-          "yaw": 2.223068336283693,
-          "pitch": 0.09493122774500407,
-          "rotation": 0,
-          "target": "25-vista-area-4"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.9585414555403204,
-          "pitch": 0.2752312421320511,
-          "title": "Puerta Principal UAB",
+          "yaw": 1.4338693649430452,
+          "pitch": 0.5622106838080008,
+          "title": "Bloque de aulas de la UAB",
           "text": ""
         },
         {
-          "yaw": 2.235529045656282,
-          "pitch": 0.7817289465867852,
-          "title": "Comedor - UAB",
-          "text": ""
-        },
-        {
-          "yaw": 0.6591526780151362,
-          "pitch": 0.4020694591736138,
-          "title": "Cancha cubierta de básquetbol - UAB",
-          "text": ""
-        },
-        {
-          "yaw": 0.5582675559261556,
-          "pitch": 0.5294874164172327,
-          "title": "Canchas de voleibol - UAB",
-          "text": ""
-        },
-        {
-          "yaw": -2.359614060929264,
-          "pitch": 0.3344769282115756,
-          "title": "Iglesia Universitaria",
-          "text": ""
-        },
-        {
-          "yaw": 2.6499876231225468,
-          "pitch": 0.33042461865794337,
+          "yaw": 1.7117920558568853,
+          "pitch": 0.3755112681189452,
           "title": "Cooksonia - Centro de Estudios de la Naturaleza",
           "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!"
         },
         {
-          "yaw": -0.8103609813907635,
-          "pitch": 0.45510164135436426,
-          "title": "Hogar de varones - UAB",
+          "yaw": 1.7135884618899073,
+          "pitch": 0.21705285019236875,
+          "title": "Comedor - UAB",
           "text": ""
         },
         {
-          "yaw": -2.7846509957175254,
-          "pitch": 0.5489232897494354,
+          "yaw": -1.6703610870372056,
+          "pitch": 0.5493737654261732,
+          "title": "Puerta sur de la UAB",
+          "text": ""
+        },
+        {
+          "yaw": 1.0928222044532028,
+          "pitch": 0.1718705260758604,
+          "title": "Iglesia Universitaria",
+          "text": ""
+        },
+        {
+          "yaw": 2.201159323562499,
+          "pitch": 0.18656235533839194,
+          "title": "Consultorio de atención médica - UAB",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "27-vista-area---museo",
+      "name": "Vista aérea - Museo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -2.3913534083256156,
+        "pitch": 0.7203148599456366,
+        "fov": 1.3608936558192368
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.896120327198977,
+          "pitch": 1.0423054672781014,
+          "rotation": 0,
+          "target": "0-museo"
+        },
+        {
+          "yaw": 3.131197592339311,
+          "pitch": 0.9307634398473361,
+          "rotation": 0,
+          "target": "1-jardn"
+        },
+        {
+          "yaw": -1.4663770477639293,
+          "pitch": 0.3122742611033278,
+          "rotation": 0,
+          "target": "26-vista-area---biblioteca"
+        },
+        {
+          "yaw": -2.082601562006136,
+          "pitch": 0.1679320742024295,
+          "rotation": 0,
+          "target": "25-vista-area---colegio"
+        },
+        {
+          "yaw": 2.0630380007257125,
+          "pitch": 0.21622168437276557,
+          "rotation": 0,
+          "target": "28-vista-area---central"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.95603426707547,
+          "pitch": 0.4579491857363198,
+          "title": "Estacionamiento 2 - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.42548344906451,
+          "pitch": 0.4458678824236184,
+          "title": "Comedor - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 1.5860872148834702,
+          "pitch": 0.5347498930763646,
           "title": "Hogar de señoritas - UAB",
           "text": ""
         },
         {
-          "yaw": 1.1833725480810706,
-          "pitch": 0.45002793345481606,
-          "title": "<div>Salon de Actos - UAB</div><div><br></div>",
+          "yaw": 1.0302277935819326,
+          "pitch": 0.3362750324336776,
+          "title": "Iglesia Universitaria",
           "text": ""
         },
         {
-          "yaw": 1.6359024337002532,
-          "pitch": 0.2915459505626252,
+          "yaw": -1.795003907008141,
+          "pitch": 0.2619101749256849,
+          "title": "Coliseo José Amasías Justiniano - UAB",
+          "text": ""
+        },
+        {
+          "yaw": -1.5087504643018992,
+          "pitch": 0.6340250118799347,
+          "title": "Bloque de aulas de la UAB",
+          "text": ""
+        },
+        {
+          "yaw": -2.2714651528468828,
+          "pitch": 0.21298816742890025,
+          "title": "Colegio Adventista UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.5316691959658773,
+          "pitch": 0.2559308547273407,
+          "title": "Salon de Actos - UAB",
+          "text": ""
+        },
+        {
+          "yaw": -1.2981865006410178,
+          "pitch": 0.39848471564525845,
+          "title": "Biblioteca - Sighart Klauss",
+          "text": ""
+        },
+        {
+          "yaw": 3.022732809704287,
+          "pitch": 0.254864033065461,
           "title": "Consultorio de atención médica - UAB",
           "text": ""
         },
         {
-          "yaw": 0.017549942358966675,
-          "pitch": 0.143871282582559,
+          "yaw": -2.8308308433642253,
+          "pitch": 0.886826517731425,
+          "title": "Cooksonia - Centro de Estudios de la Naturaleza",
+          "text": "Este es un mundo científico y de curiosos. Centro de investigaciones y un museo!"
+        },
+        {
+          "yaw": 2.1977895500866733,
+          "pitch": 0.07661335391480506,
           "title": "Piscina UAB",
           "text": ""
+        }
+      ]
+    },
+    {
+      "id": "28-vista-area---central",
+      "name": "Vista aérea - Central",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 0.3003105350737556,
-          "pitch": 0.2867858939531942,
-          "title": "Cancha de Fútbol A - UAB",
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.05042475263643631,
+        "pitch": 0.3102137037256085,
+        "fov": 1.3608936558192368
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.001857330641947,
+          "pitch": 0.2881989161954799,
+          "rotation": 0,
+          "target": "27-vista-area---museo"
+        },
+        {
+          "yaw": 2.7893401345713817,
+          "pitch": 0.16038809894279638,
+          "rotation": 0,
+          "target": "26-vista-area---biblioteca"
+        },
+        {
+          "yaw": 2.201126663834115,
+          "pitch": 0.0958176592880875,
+          "rotation": 0,
+          "target": "25-vista-area---colegio"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.739035595352,
+          "pitch": 0.3715573389801854,
+          "title": "Cancha cubierta de básquetbol - UAB",
           "text": ""
         },
         {
-          "yaw": 1.1032833481145339,
-          "pitch": 0.2425649701695871,
+          "yaw": 0.6023975415513299,
+          "pitch": 0.5297838146013198,
+          "title": "Canchas de voleibol - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 1.05996911496438,
+          "pitch": 0.2392539476555129,
           "title": "Pista de atletismo - UAB",
           "text": ""
         },
         {
-          "yaw": 2.118568445890678,
-          "pitch": 0.14768414177261846,
-          "title": "Colegio UAB",
+          "yaw": 0.2671712100830934,
+          "pitch": 0.2706520492238518,
+          "title": "Cancha de Fútbol A - UAB",
           "text": ""
         },
         {
-          "yaw": 2.8748823408854207,
-          "pitch": 0.24457648271463128,
+          "yaw": -0.6939679921621735,
+          "pitch": 0.4650871346699059,
+          "title": "Hogar de varones - UAB",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.3263005690744336,
+          "pitch": 0.3279178234684803,
+          "title": "Iglesia Universitaria",
+          "text": ""
+        },
+        {
+          "yaw": -2.7939042255622883,
+          "pitch": 0.5634301325566646,
+          "title": "Hogar de señoritas - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.266828847230447,
+          "pitch": 0.7654607951308066,
+          "title": "Comedor - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 1.2078703549533127,
+          "pitch": 0.5137790707109922,
+          "title": "Salon de Actos - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 0.04295139907656775,
+          "pitch": 0.12428811940762685,
+          "title": "Piscina UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.0932331293170625,
+          "pitch": 0.16842914992997216,
+          "title": "Colegio Adventista UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.6512475408337197,
+          "pitch": 0.32865142248086343,
+          "title": "Cooksonia - Centro de Estudios de la Naturaleza",
+          "text": ""
+        },
+        {
+          "yaw": 2.5989928914671836,
+          "pitch": 0.13997612867996878,
+          "title": "Coliseo José Amasías Justiniano - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 1.6488536913591858,
+          "pitch": 0.314468507898388,
+          "title": "Consultorio de atención médica - UAB",
+          "text": ""
+        },
+        {
+          "yaw": 2.8182380301594527,
+          "pitch": 0.25664262967507767,
           "title": "Bloque de aulas de la UAB",
           "text": ""
         }
       ]
     }
   ],
-  "name": "Paseo Virtual UAB",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
     "fullscreenButton": true,
-    "viewControlButtons": true
+    "viewControlButtons": false
   }
 };
