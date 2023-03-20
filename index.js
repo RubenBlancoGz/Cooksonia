@@ -277,10 +277,16 @@
     tooltip.classList.add('hotspot-tooltip');
     tooltip.classList.add('link-hotspot-tooltip');
     tooltip.innerHTML = findSceneDataById(hotspot.target).name;
+    
+    wrapper.appendChild(tooltip);
+    
+	  if(wrapper.textContent.includes("Vista aérea"))
+    {
+      icon.src = 'img/drone.png';      
+    }  
 
     wrapper.appendChild(icon);
-    wrapper.appendChild(tooltip);
-
+    
     return wrapper;
   }
 
