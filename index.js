@@ -280,7 +280,7 @@
     
     wrapper.appendChild(tooltip);
     
-	  if(wrapper.textContent.includes("Vista aérea"))
+	if(wrapper.textContent.includes("Vista aérea"))
     {
       icon.src = 'img/drone.png';      
     }  
